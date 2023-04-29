@@ -11,6 +11,6 @@ describe('TestPipe', () => {
   });
 
   it('test if non number is passed return error message', () => {
-    expect(pipe.transform('Yahia')).toEqual('Not a number');
+    expect(pipe.transform('Karim')).toEqual('Not a number');
   });
 });
