@@ -9,7 +9,7 @@ import { TestService } from '../test.service';
 export class TestComponent implements OnInit {
   num1: number = 5;
   num2: number = 10;
-  name: string = 'Karim';
+  name: string = 'John';
   constructor(public testService: TestService) {}
   ngOnInit(): void {
     this.testService.getValue();
